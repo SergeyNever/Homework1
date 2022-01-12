@@ -1,11 +1,38 @@
 <!DOCTYPE html> 
 <html lang="en">
   <head>>
-      <link rel="stylesheet" href="./css/style.css">
-    <title>homework-1</title>
-  </head>
+      <title>homework-2</title>
+    <style type="text/css">
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      tfoot {
+        font-weight: bold;
+      }
+      caption {
+        font-weight: bold;
+        text-align: left;
+      }
+    </style>
+    </head>
     <body>
   <div> <!--the first block-->
+   <table>
+     <tr>
+       <td>
+         <img src="./assets/logo-black.png" 
+         srcset="./assets/logo-black@2x.png 2x, ./assets/logo-black@4x.png 4x"
+         alt="logo"
+         />
+       </td>
+      <td align="right"> DECEMBER 2021
+      </td>
+      </tr>
+   </table>
+   <img src="./assets/human.png"
+   srcset="./assets/human@2x.png 2x, ./assets/human@4x.png 4x"
+    alt="Human">
     <h1>
     CHOOSE FLUTTER TO CHOOSE BOTH
     </h1>
@@ -65,6 +92,55 @@ tools, but unsure what to start with.
 <h2>
   WHO
 </h2>
+  <table border="1px">
+    <caption>Цены на флагманские модели Iphone and Xiaomi
+    </caption>
+  <thead>
+    <th align="left">
+Производитель
+   </th>
+  <th>Модель</th>
+  <th>Цена</th>
+  </thead>
+<tfoot>
+  <tr>
+    	<td colspan="2">
+     	 Средняя цена:
+    	</td>
+   	 <td align="center">
+     	 $758.8
+    	</td>
+  </tr>
+</tfoot>
+<tbody>
+  <tr>
+    	<td rowspan="4">iPhone</td>
+  <tr>
+   	 <td align="center">12 Pro</td>
+   	 <td align="center">$999</td>
+  </tr>
+  <tr>
+   	 <td align="center">12 </td>
+    	<td align="center">$799</td>
+  </tr>
+  <tr>
+   	 <td align="center">12 mini </td>
+   	 <td align="center">$699</td>
+  </tr>
+  </tr>
+ <tr>
+  <td rowspan="3"> Xiaomi</td>
+ </tr>
+<tr>
+  <td align="center"> Mi 10</td>
+  <td align="center"> $768</td>
+</tr>
+<tr>
+  <td align="center"> Black Shark 3 128 Gb</td>
+  <td align="center"> $529</td>
+</tr>
+</tbody>
+</table>
   <button>
   Register
   </button>
