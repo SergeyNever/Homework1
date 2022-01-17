@@ -1,181 +1,110 @@
-<!DOCTYPE html> 
-<html lang="en">
-  <head>>
-      <title>homework-2</title>
-    <style type="text/css">
-      table {
-        border-collapse: collapse;
-        width: 100%;
-      }
-      tfoot {
-        font-weight: bold;
-      }
-      caption {
-        font-weight: bold;
-        text-align: left;
-      }
-    </style>
-    </head>
-    <body>
-  <div> <!--the first block-->
-   <table>
-     <tr>
-       <td>
-         <img src="./assets/logo-black.png" 
-         srcset="./assets/logo-black@2x.png 2x, ./assets/logo-black@4x.png 4x"
-         alt="logo"
-         />
-       </td>
-      <td align="right"> DECEMBER 2021
-      </td>
-      </tr>
-   </table>
-   <img src="./assets/human.png"
-   srcset="./assets/human@2x.png 2x, ./assets/human@4x.png 4x"
-    alt="Human">
-    <h1>
-    CHOOSE FLUTTER TO CHOOSE BOTH
-    </h1>
-       <button> 
-         REGISTER
-      </button>
-  </div>
-    <div> <!--the second block-->
-      <h2>
-       WORKSHOP
-      </h2>
-    <p>
-      We're launching a series of practical workshops on development in January 2020. We'll
-      teach you how to know your way around software, share the latest news, and help to start.
-    </p> 
-      <p>
-        First workshop will familiarize you with cross-platform mobile development toolkit called
-Flutter. Join if you're aspiring to learn how to develop mobile apps and master new
-tools, but unsure what to start with.
-      </p>
-  </div>
-    <div> <!--the third block-->
-     <h2>
-      WHEN AND WHERE
-     </h2>
-     <div> <!--the subblock-->
-       <div> <!--the subblock1-->
-<h3>
-  Where
-</h3>
-<p>
-  Moscow, office
-</p>
-       </div>
-       <div> <!--the subblock2-->
-<h3>
-  About the course
-</h3>
-<p>
-  Duration: 2 weeks.
-</p>
-  <p>
-    Comprises 4 2-hour modules twice a week.
-  </p>
-       </div>
-       <div> <!--the subblock3-->
-<h3>
-  When
-</h3>
-<p>
-  DECEMBER 2021
-</p>
-       </div>
-     </div>
-    </div>  
-      <div> <!--the fourth block -->
-<h2>
-  WHO
-</h2>
-  <table border="1px">
-    <caption>Цены на флагманские модели Iphone and Xiaomi
-    </caption>
-  <thead>
-    <th align="left">
-Производитель
-   </th>
-  <th>Модель</th>
-  <th>Цена</th>
-  </thead>
-<tfoot>
-  <tr>
-    	<td colspan="2">
-     	 Средняя цена:
-    	</td>
-   	 <td align="center">
-     	 $758.8
-    	</td>
-  </tr>
-</tfoot>
-<tbody>
-  <tr>
-    	<td rowspan="4">iPhone</td>
-  <tr>
-   	 <td align="center">12 Pro</td>
-   	 <td align="center">$999</td>
-  </tr>
-  <tr>
-   	 <td align="center">12 </td>
-    	<td align="center">$799</td>
-  </tr>
-  <tr>
-   	 <td align="center">12 mini </td>
-   	 <td align="center">$699</td>
-  </tr>
-  </tr>
- <tr>
-  <td rowspan="3"> Xiaomi</td>
- </tr>
-<tr>
-  <td align="center"> Mi 10</td>
-  <td align="center"> $768</td>
-</tr>
-<tr>
-  <td align="center"> Black Shark 3 128 Gb</td>
-  <td align="center"> $529</td>
-</tr>
-</tbody>
-</table>
-  <button>
-  Register
-  </button>
-      </div> 
-    <div> <!--the fifth block -->
-<h2>
-  GET READY
-</h2>
-  <p>
-  We prepared some materials to get to know the platform. You're not obliged to study them,
-but it'll help to learn the basics faster and easier, prepare a list of questions to
-lecturers, and have a more productive workshop experience.
-  </p>
-  <button>
-    Register
-  </button>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Homework</title>
+</head>
+<body>
+	<div id="block1">
+		<table>
+			<tr>
+				<td>
+					<img 
+					   srcset="./assets/logo-black@2x.png 2x, ./assets/logo-black@4x.png 4x" 
+					   src="./assets/logo-black.png" 
+					   alt="logo"
+					/>
+				</td>
+				<td align="right">DECEMBER 2021</td>
+			</tr>
+		</table>
+		<img 
+		   srcset="./assets/human@2x.png 2x, ./assets/human@4x.png 4x" 
+		   src="./assets/human.png" 
+		   alt="Human"
+		/>
+		<h1 class="block1__title">CHOOSE FLUTTER TO CHOOSE BOTH</h1>
+		<button>REGISTER</button>	
+	</div>
+	<div id="block2">
+		<h2 class="block2__title">WORKSHOP</h2>
+		<p>We're launching a series of practical workshops on development in January 2020. We'll teach you how to know your way around software, share the latest news, and help to start.</p>
+		<p>First workshop will familiarize you with cross-platform mobile development toolkit called Flutter. Join if you're aspiring to learn how to develop mobile apps and master new tools, but unsure what to start with.</p>
+	</div>
+	<div id="block3">
+		<h2 class="block3__title">WHEN AND WHERE</h2>
+      <div>
+      	<div>
+      		<h3>Where</h3>
+      		<p>Moscow, office.</p>
+      	</div>
+         <div>
+         	<h3>About the course</h3>
+         	<p>Comprises 4 2-hour modules twice a week.</p>
+         </div>
+         <div>
+         	<h3>When</h3>
+         	<p>DECEMBER 2021</p>
+         </div>
       </div>
-    <div> <!--the sixth block -->
-<h2>
-  ORGANIZERS
-</h2>
-<p>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dolorem eius non
-possimus velit. Atque eveniet facere magni molestias nostrum nulla odio odit pariatur
-rerum sunt! A aperiam architecto, beatae, ea eius est expedita facere, itaque minus nam
-obcaecati perferendis quia quis soluta totam unde vero. Accusantium aperiam beatae
-consequatur culpa dolor, earum eius expedita fuga illo ipsa libero maiores maxime
-molestias nulla numquam obcaecati odit praesentium sunt tenetur totam.
-</p>
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dolorem eius non
-    possimus velit. Atque eveniet facere magni molestias nostrum nulla odio odit pariatur
-    rerum sunt! A aperiam architecto, beatae, ea eius est expedita facere, itaque minus nam
-    obcaecati perferendis quia quis soluta totam unde vero.    
-  </p>
-      </div>
-  </body>
+	</div>
+	<div id="block4">
+		<h2 class="block4__title">WHO</h2>
+		<table border="1px">
+			<caption>Цены на флагманские модели iPhone и Xiaomi</caption>
+			<thead>
+				<th align="left">Производитель</th>
+				<th>Модель</th>
+				<th>Цена</th>
+			</thead>
+			<tfoot>
+				<tr>
+					<td colspan="2">Средняя цена:</td>
+					<td align="center">$758.8</td>
+				</tr>
+			</tfoot>
+			<tbody>
+				<tr>
+					<td rowspan="4">iPhone</td>
+					<tr>
+						<td align="center">12Pro</td>
+						<td align="center">$999</td>
+					</tr>
+					<tr>
+						<td align="center">12</td>
+						<td align="center">$799</td>
+					</tr>
+					<tr>
+						<td align="center">12 mini</td>
+						<td align="center">$699</td>
+					</tr>
+				</tr>
+				<tr>
+					<td rowspan="3">Xiaomi</td>
+					<tr>
+						<td align="center">Mi 10</td>
+						<td align="center">$768</td>
+					</tr>
+					<tr>
+						<td align="center">Black Shark 3 128 Gb</td>
+						<td align="center">$529</td>
+					</tr>
+				</tr>
+			</tbody>
+		</table>
+		<button>Register</button>
+	</div>
+	<div id="block5">
+		<h2 class="block5__title">GET READY</h2>
+		<p>We prepared some materials to get to know the platform. You're not obliged to study them, but it'll help to learn the basics faster and easier, prepare a list of questions to lecturers, and have a more productive workshop experience.</p>
+		<button>Register</button>
+	</div>
+	<div id="block6">
+		<h2 class="block6__title">ORGANIZERS</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dolorem eius non possimus velit. Atque eveniet facere magni molestias nostrum nulla odio odit pariatur rerum sunt! A aperiam architecto, beatae, ea eius est expedita facere, itaque minus nam obcaecati perferendis quia quis soluta totam unde vero. Accusantium aperiam beatae consequatur culpa dolor, earum eius expedita fuga illo ipsa libero maiores maxime molestias nulla numquam obcaecati odit praesentium sunt tenetur totam.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dolorem eius non possimus velit. Atque eveniet facere magni molestias nostrum nulla odio odit pariatur rerum sunt! A aperiam architecto, beatae, ea eius est expedita facere, itaque minus nam obcaecati perferendis quia quis soluta totam unde vero.</p>
+	</div>
+</body>
 </html>
